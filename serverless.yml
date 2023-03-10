@@ -15,7 +15,7 @@ functions:
           path: /
           method: get
   test:
-    handler: test.test
+    handler: api/test.test
     events:
       - httpApi:
           path: /test
