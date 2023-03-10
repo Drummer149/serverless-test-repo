@@ -18,8 +18,8 @@ functions:
     handler: test.test
     events:
       - httpApi:
-          path: /
-          method: test
+          path: /test
+          method: get
 
 plugins:
   - serverless-plugin-typescript
