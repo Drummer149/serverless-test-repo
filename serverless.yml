@@ -14,6 +14,12 @@ functions:
       - httpApi:
           path: /
           method: get
+  test:
+    handler: test.test
+    events:
+      - httpApi:
+          path: /
+          method: test
 
 plugins:
   - serverless-plugin-typescript
