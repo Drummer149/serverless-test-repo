@@ -20,6 +20,12 @@ functions:
       - httpApi:
           path: /test
           method: get
+  error:
+    handler: api/error.error
+    events:
+      - httpApi:
+          path: api/error
+          method: get
 
 plugins:
   - serverless-plugin-typescript
