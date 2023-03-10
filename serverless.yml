@@ -24,7 +24,7 @@ functions:
     handler: api/error.error
     events:
       - httpApi:
-          path: api/error
+          path: /error
           method: get
 
 plugins:
